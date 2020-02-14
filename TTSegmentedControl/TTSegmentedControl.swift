@@ -324,9 +324,9 @@ extension TTSegmentedControl {
         thumbContainerView.frame.origin.y = 0
         thumbContainerView.frame.size.height = containerView.frame.size.height
         
-        thumbView.frame.size.height = containerView.frame.size.height - 4
+        thumbView.frame.size.height = containerView.frame.size.height
         thumbView.layer.cornerRadius = cornerRadius < 0 ? 0.5 * thumbView.frame.size.height : cornerRadius
-        thumbView.frame.origin.y = 2
+        thumbView.frame.origin.y = 0
         
         
         shadowLayer.frame = thumbView.bounds
